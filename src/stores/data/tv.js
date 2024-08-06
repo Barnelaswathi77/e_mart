@@ -101,7 +101,7 @@ export const tvData = [{
 {
     "id": "11",
     "product": "TV",
-    "image": "assets/TV/11.jpg",
+    "image": "/tvs/11.png",
     "brand": "Insignia",
     "model": "Fire TV Edition",
     "price": "349.00",

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from "react-router-dom";
 
 const Navbar = () =>{
     return(
@@ -8,7 +9,7 @@ const Navbar = () =>{
                     <h2>E-Mart</h2>
                 </div>
                 <div classNae="search">
-                    <input type="text" placeholder="search.."/>
+                    <input type="text" placeholder='Search.....'/>
                 </div>
                 <div className="user">
                     <div className="user-detail">Sign IN/Signup</div>
@@ -17,17 +18,43 @@ const Navbar = () =>{
             </div>
             <div className="subMenu">
                 <ul>
-                    <li>Mobiles</li>
-                    <li>Computers</li>
-                    <li>Watches</li>
-                    <li>Men Fashion</li>
-                    <li> Women Dressing</li>
-                    <li>Furniture</li>
-                    <li>AC</li>
-                    <li>Kitchen</li>
-                    <li>TV's</li>
-                    <li>Speakers</li>
-                    <li>Books</li>
+                    <Link to='/mobiles'>
+                        <li>Mobiles</li>
+                    </Link>
+                    <Link to="/computers">
+                        <li>Computers</li>
+                    </Link>
+                    <Link to ="/watch">
+                        <li>Watches</li>
+                    </Link>
+                    <Link to ='/men'>
+                        <li>Men Fashion</li>
+                    </Link>
+                    <Link to ="/woman">
+                        <li> Women Dressing</li>
+                    </Link>
+                    <Link to ='/furniture'>
+                        <li>Furniture</li>
+                    </Link>
+          
+                    <Link to ='/ac'>
+                        <li>AC</li>
+                    </Link>
+                    <Link to ='/kitchen'>
+                        <li>Kitchen</li>
+                    </Link>
+           
+                    <Link to ='/tv'>
+                        <li>TV's</li>
+                    </Link>
+            
+                    <Link to ='speaker'>
+                        <li>Speakers</li>
+                    </Link>
+
+                    <Link to ='book'>
+                        <li>Books</li>
+                    </Link>
                 </ul>
             </div>
         </>

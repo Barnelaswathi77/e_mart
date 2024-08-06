@@ -81,7 +81,7 @@ export const watchData = [{
 {
     "id": "9",
     "product": "Watch",
-    "image": "/watchs/9 .jpg",
+    "image": "/watchs/9.jpg",
     "brand": "Citizen",
     "model": "Eco-Drive Promaster",
     "price": "299.99",

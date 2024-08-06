@@ -16,7 +16,30 @@ body{
   background-color:black;
   color:white;
   height:80px;
+  
 }
+.title h2 {
+  color: white;
+  margin-left:30px;
+  margin-top:25px;
+}
+.user {
+  display:flex;
+  width:20%;
+  justify-content: space-between;
+  align-items:center;
+  margin-top:20px; 
+}
+.search{
+  width:30%;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  margin-left:100px;
+  margin-top:20px;
+}
+
+
 .proSection{
   display:flex;
   background-color:white;
@@ -34,9 +57,10 @@ body{
 }
 .subMenu ul li{
   list-style:none;
-  margin:26px;
+  margin:80px;
   margin-top:10px;
 }
+
 .subMenu{
   background:gray;
   color:azure;
@@ -45,4 +69,16 @@ body{
 .subMenu ul{
   display:inline-flex;
 }
- 
+.pageSection{
+  display:grid;
+  grid-template-columns:repeat(4,500px);
+  gap:50px;
+}
+.pageImg{
+  width:250px;
+  height:290px;
+  padding-top:20px;
+}
+.pageImg img{
+  width:80%;
+}
