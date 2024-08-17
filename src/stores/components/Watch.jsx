@@ -8,7 +8,7 @@ const Watch = ()=>{
     return(
         <>
             <div className="proTitle">
-                <h2>WATCHES</h2>
+                <h2>Wacthes</h2>
             </div>
             <div className="proSection">
                 {

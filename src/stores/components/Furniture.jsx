@@ -7,7 +7,7 @@ const Furniture = ()=>{
     return(
         <>
             <div className="proTitle">
-                <h2>FURNITURE</h2>
+                <h2>Furniture</h2>
             </div>
             <div className="proSection">
                 {
